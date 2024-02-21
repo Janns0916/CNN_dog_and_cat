@@ -1,0 +1,15 @@
+2024-02-21 13:32:51.408 | INFO     | __main__:main:74 - Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+Mixed precision type: no
+
+2024-02-21 13:32:51.408 | INFO     | __main__:main:75 - {'seed': 20, 'output_dir': 'CNN/model', 'debug': False, 'num_workers': 0, 'cuda': 0, 'num_train_epochs': 30, 'max_train_steps': None, 'per_device_train_batch_size': 128, 'per_device_eval_batch_size': 128, 'gradient_accumulation_steps': 1, 'learning_rate': 0.0001, 'weight_decay': 0.01, 'max_grad_norm': None, 'num_warmup_steps': 530, 'fp16': False, 'use_wandb': False, 'entity': None, 'project': None, 'name': None, 'log_all': False}
+2024-02-21 13:32:52.764 | INFO     | __main__:main:141 - ***** Running training *****
+2024-02-21 13:32:52.765 | INFO     | __main__:main:142 -   Num examples = 15
+2024-02-21 13:32:52.765 | INFO     | __main__:main:143 -   Num Epochs = 30
+2024-02-21 13:32:52.766 | INFO     | __main__:main:144 -   Instantaneous batch size per device = 128
+2024-02-21 13:32:52.766 | INFO     | __main__:main:145 -   Total train batch size (w. parallel, distributed & accumulation) = 128
+2024-02-21 13:32:52.767 | INFO     | __main__:main:146 -   Gradient Accumulation steps = 1
+2024-02-21 13:32:52.767 | INFO     | __main__:main:147 -   Total optimization steps = 450
